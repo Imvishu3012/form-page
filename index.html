@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="head">GeeksforGeeks Servey Form</h1>
+    <div class="main">
+      <form id="form">
+        <div class="form-control">
+          <label for="name" id="label-name">Name</label>
+          <input type="text" id="name" placeholder="Enter your name" />
+        </div>
+        <div class="form-control">
+          <label for="email" id="label-email">Email</label>
+          <input type="email" placeholder="Enter you email" />
+        </div>
+        <div class="form-control">
+          <label for="age" id="age">Age</label>
+          <input type="text" placeholder="Enter your age" />
+        </div>
+        <div class="form-control">
+          <label id="role-label">Which option best decribe you?</label>
+          <select name="name" id="role">
+            <option value="Intern">Intern</option>
+            <option value="student">Student</option>
+          </select>
+        </div>
+        <div class="form-control">
+          <label for="recommendation"
+            >Would you like to recommend GeeksforGeeks to your friend?</label
+          >
+          <label id="recommend-1"> <input type="radio" />Yes </label>
+          <label id="recommend-2"><input type="radio" />No</label>
+          <label id="recommend-3"><input type="radio" />Maybe</label>
+        </div>
+        <div class="form-control">
+          <label id="languages"
+            >Languages and Frameworks Known(check all that apply)</label
+          >
+          <label id="check1"><input type="checkbox" />C</label>
+          <label id="check2"><input type="checkbox" />C++</label>
+          <label id="check3"><input type="checkbox" />Java</label>
+          <label id="check4"><input type="checkbox" />Javascript</label>
+          <label id="check5"><input type="checkbox" />Python</label>
+          <label id="check6"><input type="checkbox" />React</label>
+          <label id="check7"><input type="checkbox" />Angular</label>
+        </div>
+        <div class="form-control">
+          <label id="comments">Any Comments Or Suggetions?</label>
+          <textarea
+            name="comment"
+            id="comment"
+            placeholder="Enter your comment here."
+          ></textarea>
+        </div>
+        <button id="btn">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
