@@ -1,3 +1,3 @@
 # form-page
-Created with CodeSandbox
-Designed a form page using html and Css
+Created with CodeSandbox,
+Designed a form page using HTML and CSS
